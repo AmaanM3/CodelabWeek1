@@ -22,9 +22,9 @@ public class Person {
     private String name;
     private int age;
 
-    public Person(int id, String name, int age) {
-        this.id = id;
+    public Person(String name, int age) {
         this.name = name;
         this.age = age;
     }
 }
+
